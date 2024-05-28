@@ -20,5 +20,4 @@ Contato Se você tiver alguma dúvida ou precisar de mais informações, por fav
 
 Nome: Yan Matias
 Email: yanmatiasbraga97@gmail.com
-Telefone: 51981855629
 LinkedIn: https://www.linkedin.com/in/yan-m-89250a13b/
