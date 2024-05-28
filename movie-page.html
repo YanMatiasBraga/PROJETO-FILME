@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html>
+
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <!--===== TITULO DO SITE ========-->
+    <title> Movie Name - HD</title>
+
+
+    <!--===== ESTILOS CSS PODEM SER ADICIONADOS AQUI ========-->
+    <link rel="stylesheet" href="assets/css/style.css" />
+
+
+    <!--===== ICONE DA MINHA ABA ONDE FICA MEU TITULO (FAV-ICON) ========-->
+    <link rel="shortcut icon" href="assets/images/fav-icon.png" />
+
+
+    <!--========== LINK SITE GOOGLE FONTS IMPORT-POPPINS-FONT ===============-->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+
+    <!--========== LINK SITE GOOGLE FONTS IMPORT-MONOTON-FONT ===============-->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Monoton&display=swap" rel="stylesheet">
+
+    <!--========== LINK SITE GOOGLE FONTS IMPORT-AWESOME-FONT ===============-->
+
+    <script src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script>
+    <!---<script src="https://kit.fontawesome.com/b529505aac.js" crossorigin="anonymous"></script>-->
+
+
+</head>
+
+<body>
+
+    <!--========== SCROLL - PROGRESS - BAR /  ==========-->
+    <div id="progress">
+        <span id="progress-value"></span>
+    </div>
+
+    <!--========== NAVEGAÇÃO ==========-->
+
+    <!-- CLASSE (NAV) A classe nav em HTML é usada para definir uma seção de navegação em um documento da web. 
+    Ela é frequentemente usada para agrupar links de navegação, como menus, barras de navegação, ou qualquer outra 
+    estrutura de navegação que oriente os usuários pelo conteúdo do site.-->
+    <nav class="navigation">
+
+
+        <!--========== BOTÃO MENU ==========-->
+
+        <!-- A classe (MENU-BTN) "menu-btn" está sendo usada em um arquivo CSS, ela será utilizada para estilizar um botão de menu.
+        
+        (input type="checkbox") é um elemento HTML usado para criar uma caixa de seleção, também conhecida como checkbox. 
+        Quando um usuário marca uma checkbox, ela indica que uma opção está selecionada ou um valor está ativado. Por padrão, 
+        uma checkbox pode estar marcada selecionada ou desmarcada não selecionada.
+        
+        Usar um (ID) permite que você selecione um elemento específico de forma rápida e direta, porque os IDs devem ser únicos em um documento HTML. 
+        Isso é útil quando você tem vários elementos com a mesma classe, mas deseja estilizar ou manipular apenas um deles de maneira diferente.-->
+        <input type="checkbox" class="menu-btn" id="menu-btn">
+
+
+        <!--O elemento (label) em HTML é usado para associar um texto explicativo a um elemento de formulário, como <input>, <select>, ou 
+        <textarea>. Isso é feito usando o atributo for no <label> e o atributo id no elemento do formulário que ele está rotulando.
+        O propósito principal do elemento <label> é melhorar a acessibilidade e usabilidade dos formulários web,
+        tornando mais fácil para os usuários entenderem qual campo de entrada pertence a que tipo de informação.-->
+
+        <!--A classe (menu-icon) pode ser usada para estilizar um ícone de menu em um elemento HTML, como um <label>, <span> ou <div>, por exemplo. 
+        Geralmente, essa classe é aplicada a um elemento que representa o ícone do menu em uma interface de usuário.
+        A utilização da classe "menu-icon" permite que você adicione estilos específicos ao ícone do menu, como cor, tamanho, formato e outros 
+        aspectos visuais, usando CSS.-->
+        <label for="menu-btn" class="menu-icon">
+
+
+            <!-- Um (span) em HTML é um elemento de marcação que é usado para aplicar estilos ou realizar manipulações específicas em uma parte de 
+        texto dentro de um bloco de texto maior. É um elemento de linha em HTML que não possui nenhuma semântica própria além daquela que você 
+        atribui a ele. O elemento <span> é muito versátil e pode ser usado para uma variedade de finalidades, incluindo: Aplicação de Estilos.-->
+            <span class="nav-icon"></span>
+        </label>
+
+
+
+        <!--========== LOGO ==========-->
+        <a href="index.html" class="logo">
+            YAN-Movies<span>.HD</span>
+        </a>
+
+
+
+        <!--========== MENU ==========-->
+
+        <ul class="menu">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Genere</a></li>
+            <li><a href="#">TV Shows</a></li>
+            <li><a href="#">Movies</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+
+        <!--========== SEARCH-BOX ==========-->
+
+        <form action="" class="search-box">
+
+            <!--========== INPUT ==========-->
+            <input type="text" name="search" placeholder="Search Movie" class="search-input" required />
+
+            <!--========== BOTÃO ==========-->
+            <button type="submit">
+                <i class="fas fa-search"></i>
+            </button>
+        </form>
+
+    </nav>
+    <!--========== NAV-END ==========-->
+
+    <!--========== MOVIE BANNER ==========-->
+    <section class="movie-banner">
+
+        <!--========== IMG ==========-->
+        <div class="m-banner-img">
+            <img src="assets/images/Coringa Screenshots/poster fundo.jpg" alt="">
+        </div>
+
+
+        <!--========== CONTENT ==========-->
+        <div class="banner-container">
+
+            <!--========== TITLE-CONTAINER **************** ==========-->
+            <div class="title-container">
+                <!--========== TITLE-TOP ==========-->
+                <div class="title-top">
+
+
+                    <!--========== TITLE ==========-->
+                    <div class="movie-title">
+                        <h1>CORINGA</h1>
+                    </div>
+                    <!--========== MORE-ABOUT-MOVIE ==========-->
+                    <div class="more-about-movie">
+                        <span class="quality">Full HD</span>
+                        <div class="rating">
+                            8.4 <img src="assets/images/IMDb-icon.png" alt="imdb">
+                        </div>
+                        <span>03 Outubro 2022</span>
+                        <span>122 min</span>
+                    </div>
+                    <!--========== LANGUAGE ==========-->
+                    <div class="language">
+                        <span>Português</span>
+                    </div>
+
+                </div>
+
+                <!--========== TITLE-bottom ==========-->
+                <div class="title-bottom">
+                    <!--========== CATEGORY ==========-->
+                    <div class="category">
+                        <strong>Category</strong><br />
+                        <a href="#">Policial</a>,<a href="#">Drama</a>,<a href="#">Suspense</a>
+                    </div>
+                    <!--========== TRAILER-BTN ==========-->
+                    <a href="https://www.youtube.com/watch?v=621pfj0EfIc" class="watch-btn">Watch Trailer</a>
+                </div>
+
+            </div>
+
+            <!--========== PLAY-BTN ************************ ==========-->
+            <div class="play-btn-container">
+                <div class="play-btn">
+                    <a href="javascript:void">
+                        <i class="fas fa-play"></i>
+
+                    </a>
+                </div>
+
+            </div>
+
+            <!--========== VIDEO/FULL-MOVIE ************************ ==========-->
+            <div id="play" class="play">
+                <!--========== CLOSE-BTN ==========-->
+                <a href="javascript:void" class="close-movie">
+                    <i class="fas fa-times"></i>
+                </a>
+                <!--========== MOVIE ==========-->
+                <div class="play-movie">
+                    <video id="m-video" controls>
+                        <source src="assets/videos/Coringa/Coringa - Trailer Final Dublado.mp4"
+                            type="video/mp4">
+                    </video>
+                </div>
+
+            </div>
+
+
+        </div>
+
+
+
+
+
+    </section>
+    <!-- ============== BANNER END ==================== -->
+
+
+    <!-- ============== DETAILS ==================== -->
+    <section class="movie-details">
+        <strong>CORINGA</strong>
+        <p>Gotham City, 1981. Em meio a uma onda de violência e a uma greve dos lixeiros que deixou a cidade imunda, 
+            o candidato Thomas Wayne (Brett Cullen) promete limpar a cidade na campanha para ser o novo prefeito. 
+            É neste cenário que Arthur Fleck (Joaquin Phoenix) trabalha como palhaço para uma agência de talentos, com um agente social o 
+            acompanhando de perto, devido aos seus conhecidos problemas mentais. Após ser demitido, Fleck reage mal à gozação de três homens 
+            de Wall Street em pleno metrô. A atitude inicia um movimento popular contra a elite de Gotham City, da qual Thomas Wayne é seu 
+            maior representante.</p>
+    </section>
+
+    <!-- ============== SCREENSHOTS ==================== -->
+    <section class="screenshots">
+        <strong>ScreenShots</strong>
+        <!-- ============== SCREENSHOTS CONTAINER ==================== -->
+        <div class="screen-s-container">
+            <img src="assets/images/Coringa Screenshots/screen01.jpg" alt="">
+            <img src="assets/images/Coringa Screenshots/screen02.jpg" alt="">
+            <img src="assets/images/Coringa Screenshots/screen03.jpg" alt="">
+            <img src="assets/images/Coringa Screenshots/screen04.jpg" alt="">
+        </div>
+    </section>
+
+
+    <!-- ============== DOWNLOAD ==================== -->
+    <section class="download-movie">
+        <!-- ============== CONTAINER ==================== -->
+        <div class="download-container">
+            <!-- ============== BOX ==================== -->
+            <div class="download-box">
+                <span><i class="fas fa-server"></i> Server 1</span>
+                <span>English</span>
+                <span>480p</span>
+                <a href="assets/videos/Coringa/Coringa - Trailer Final Dublado.mp4">Download</a>
+            </div>
+            <!-- ============== BOX ==================== -->
+            <div class="download-box">
+                <span><i class="fas fa-server"></i> Server 2</span>
+                <span>English</span>
+                <span>720p</span>
+                <a href="assets/videos/Coringa/AVISO LEGAL E RESUMO DO PROJETO.pdf">Download</a>
+            </div>
+            <!-- ============== BOX ==================== -->
+            <div class="download-box">
+                <span><i class="fas fa-server"></i> Server 3</span>
+                <span>English</span>
+                <span>1080p</span>
+                <a href="assets/videos/Coringa/AVISO LEGAL E RESUMO DO PROJETO.pdf">Download</a>
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!--========== FOOTER / RODAPÉ ==========-->
+    <footer>
+        <!--========== FOOTER LOGO / RODAPÉ ==========-->
+        <a href="index.html" class="logo">
+            YAN-Movies<span>HD</span>
+        </a>
+        <!--========== copyright ==========-->
+        <span class="copyright">
+            copyright 2024 - Todos os direitos reservados
+        </span>
+    </footer>
+
+
+    <!-- ============== jQuery ==================== -->
+    <script src="assets/js/jQuery.js"></script>
+
+
+    <script>
+
+        /* SCROLL -PROGRESS-BAR */
+        let scrollPrecentage = () => {
+            let scrollProgress = document.getElementById("progress");
+            let progressValue = document.getElementById("progress-value");
+            let pos = document.documentElement.scrollTop;
+            let calcHeight = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+            let scrollValue = Math.round(pos * 100 / calcHeight);
+            scrollProgress.style.background = `conic-gradient(#e70634 ${scrollValue}%, #2b2f38 ${scrollValue}%)`;
+        }
+        window.onscroll = scrollPrecentage;
+        window.onload = scrollPrecentage;
+
+
+        /* ======= MENU-BTN-FIXED-WHEN-SCROLL ============ */
+        $(Window).scroll(function () {
+            if ($(document).scrollTop() > 20) {
+                $('.navigation').addClass('fix-icon');
+            }
+            else {
+                $('.navigation').removeClass('fix-icon');
+            }
+        });
+
+        /* ======= POPUP-OPEN ============ */
+        $(document).on('click', '.play-btn a', function () {
+            $('.play').addClass('active-popup');
+        });
+        /* ======= POPUP-CLOSE ============ */
+        $(document).on('click', '.close-movie', function () {
+            $('.play').removeClass('active-popup');
+        });
+
+        /* ======= AUTO-PLAY-WHEN-POPUP-OPEN ============ */
+        $('.play-btn a').click(function () {
+            $('#m-video')[0].play();
+        });
+        /* ======= CLOSE-VIDEO-WHEN-POPUP-CLOSE ============ */
+        $('.close-movie').click(function () {
+            $('#m-video')[0].pause();
+        });
+
+    </script>
+
+</body>
+
+</html>
