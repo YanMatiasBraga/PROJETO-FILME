@@ -12,7 +12,15 @@ Design Responsivo:  Utilização de HTML5, CSS3 e JS para criar uma interface
 # 2. Estrutura do Projeto  
 Página Inicial:  Apresenta uma lista de filmes populares com opção de pesquisa e filtros por gênero e avaliação.  
 Página de Detalhes do Filme:  Exibe informações detalhadas sobre um filme selecionado, incluindo sinopse, trailer, avaliação e comentários.  
-Funcionalidade de Download:  Nota Importante: A funcionalidade de download está simulada para fins educacionais e não realiza downloads reais de filmes protegidos por direitos autorais.   
+Funcionalidade de Download:  Nota Importante: A funcionalidade de download está simulada para fins educacionais e não realiza downloads reais de filmes protegidos por direitos autorais.
+
+# Capturas de Tela
+
+![Captura de Tela 1](assets/images/Imagens%20do%20Projeto/capa%2001.jpg)
+![Captura de Tela 1](assets/images/Imagens%20do%20Projeto/capa%2002.jpg)
+![Captura de Tela 1](assets/images/Imagens%20do%20Projeto/capa%2003.jpg)
+![Captura de Tela 1](assets/images/Imagens%20do%20Projeto/capa%2004.jpg)
+
 
 # 3. Considerações Éticas  
 Este projeto foi desenvolvido com o intuito exclusivo de demonstrar minhas habilidades técnicas em desenvolvimento web e não deve ser utilizado para fins ilegais. A pirataria é uma violação séria das leis de direitos autorais e este site serve apenas como um protótipo educacional. Se você é um recrutador ou avaliador, por favor, considere este projeto no contexto de um ambiente de aprendizado e desenvolvimento de habilidades. Estou disponível para discutir quaisquer questões relacionadas ao projeto e ao seu propósito educacional.  
@@ -20,4 +28,5 @@ Contato Se você tiver alguma dúvida ou precisar de mais informações, por fav
 
 Nome: Yan Matias
 Email: yanmatiasbraga97@gmail.com
+Telefone: 51981855629
 LinkedIn: https://www.linkedin.com/in/yan-m-89250a13b/
